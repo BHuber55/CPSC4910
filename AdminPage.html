@@ -1,0 +1,95 @@
+
+<html>
+<head>
+  <title>Admin Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Admin Page</h1>
+
+<!-- Need to make it so you hit a button and the text fields pop up for you to enter in what you want to add/delete. -->
+<!-- I need to make the corresponding php files generate/delete the correct webpage for each location added/deleted. -->
+<!-- Try to combine the addCountry and addMonitor into one thing.       DONE. -->
+
+
+
+<!-- Add  -->
+    <form action="Add.php" method="post">
+        <label>Add Location</label>
+        <br>
+
+        <label>Country</label>
+        <input type="text" name="new_country">
+        <br>
+
+        <label>Facility</label>
+        <input type="text" name="new_location">
+        <br>
+
+        <label>Monitor</label>
+        <input type="text" name="new_monitor">
+        <br>
+
+        <input type="submit" value="Add">
+        <br>
+    </form>
+
+<!-- Delete  -->
+    <form action="Delete.php" method="post">
+        <label>Delete Location</label>
+        <br>
+
+        <label>Country</label>
+        <input type="text" name="new_country">
+        <br>
+
+        <label>Facility</label>
+        <input type="text" name="new_location">
+        <br>
+
+        <label>Monitor</label>
+        <input type="text" name="new_monitor">
+        <br>
+
+        <label>Country</label>
+        <select name="country">
+            <option value="Red">Red</option>
+            <option value="Green">Green</option>
+            <option value="Blue">Blue</option>
+            <option value="Pink">Pink</option>
+            <option value="Yellow">Yellow</option>
+        </select>
+        <br>
+
+        <label>Facility</label>
+        <select name="country">
+            <option value="Red">Red</option>
+            <option value="Green">Green</option>
+            <option value="Blue">Blue</option>
+            <option value="Pink">Pink</option>
+            <option value="Yellow">Yellow</option>
+        </select>
+        <br>
+
+        <label>Monitor</label>
+        <select name="country">
+            <option value="Red">Red</option>
+            <option value="Green">Green</option>
+            <option value="Blue">Blue</option>
+            <option value="Pink">Pink</option>
+            <option value="Yellow">Yellow</option>
+        </select>
+        <br>
+
+        <input type="submit" name="submit" value="Delete" />
+    </form>
+
+
+
+
+
+</body>
+</html>
+
+

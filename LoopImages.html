@@ -1,0 +1,184 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+</head>
+
+<style>
+img 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 100vw;
+	<!-- height: 100vh; -->
+}
+
+</style>
+
+
+
+<body bgcolor="#aaaaaa">
+
+<img id="cat" src="Test Images/small-kitten-meowing.jpg">
+
+<p id="printhere"></p>
+
+<!-- GIF Image 
+<img id="cat-gif" src="Test Images/cat-gif.gif">
+-->
+
+
+<input type="file" id="openFile" />
+<br>
+<pre id="fileContents"></pre>
+
+
+
+<!--
+TODO:
+- Scale Image (To minimum side length)
+X Center Image
+X Set Background to Black
+- Dynamically retrieve list
+-->
+
+<!--
+stuff:
+- Use PHP to get the image hieght / width
+- Use PHP to get the screen hieght / width
+- divide and multiply to see if the image can reach the screen height / width
+- If the image height * 1.25 = screen hieght but image width * 1.15 = screen width use 1.15 for both
+
+-->
+
+
+
+
+</body>
+
+<script>
+
+
+// TODO:
+// Read from text file to get list of files and their durations
+// Get screen resolution
+// Resize image appropriatly
+
+
+
+
+
+
+// Read in from text file 1
+
+
+
+
+
+// Read in from text file 2
+
+
+
+
+
+/*
+
+var fs = require("fs");
+
+
+var fileList = [0];
+var durationList = [0];
+
+
+window.onload = function() {changeImage()};
+
+// Is this code running?
+fs.readFile("Test Image/slides.txt", function(text)
+{
+    var line = text.split("\n");
+	
+	// Test
+	document.getElementById("printhere").innerHTML = "printing: " + line;
+
+	
+	var result = line[0].toString.split(":");
+	var temp = result[0].toString.split(".");
+	var ext = temp[1];
+	
+	
+	if(!(ext == ".txt")
+	{
+		filename = "Test Images/" + result[0];
+		duration = result[1];
+	}
+	
+	fileList.unshift(filename);
+	durationList.unshift(duration);
+	
+	
+});
+
+*/
+
+// Not Reached
+var printthis = "Hello";
+
+// Test
+	document.getElementById("printhere").innerHTML = "printing: " + printthis;
+
+
+
+
+var fileList = [
+    "Test Images/black-cat.jpg",
+    "Test Images/cat-jump.jpg",
+    "Test Images/small-kitten-meowing.jpg",
+	"Test Images/cat-gif.gif"
+];
+
+var durationList = [
+    3,
+	4,
+	5,
+	2
+];
+
+
+
+
+
+
+
+var index = 0;
+
+
+
+function changeImage() 
+{
+    index = index + 1;
+    if (index == fileList.length) index = 0;
+    var image = document.getElementById('cat');
+	printthis = fileList[index];
+    image.src = fileList[index];
+	
+	// Test
+	document.getElementById("printhere").innerHTML = "duration: " + printthis;
+
+
+}
+setInterval(function(){changeImage()}, durationList[index] * 1000);
+
+
+
+
+
+document.head.appendChild(x);
+</script>
+
+</html>

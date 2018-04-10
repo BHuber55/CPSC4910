@@ -1,0 +1,3 @@
+Work on a way to store the list of slides: image, name, duration, ect.
+
+probably going to do the same thing as I did for the locations.

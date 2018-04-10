@@ -1,0 +1,17 @@
+Argentina:Pilar
+Australia:Adelaide:Melbourne
+Brazil:Betím:Caçapava:Camaçari:Caxias do Sul:>São Bernardo 1:>São Bernardo 2
+Canada:Blenheim, ON:Kitchener, ON:Mississauga, ON:Whitby, ON:Woodbridge, ON
+China:Chongqing:Guangzhou:Shanghai 1:Shanghai 2:Shiyan:Wuhan:Wuxi
+Czech Republic:Mlada Boleslav
+Egypt:Cairo
+England:Coventry:Manchester
+France:Boulogne-Billancourt:Trilport
+Germany:Espelkamp:Mörfelden:Munich:Rüsselsheim:Wolfsburg
+India:Sanand
+Japan:Anjo:Inado:Nanno:Tokyo
+Mexico:Leon:Mexico City:Saltillo 1:Saltillo 2
+Poland:Bielsko Biala
+Spain:Barcelona
+Thailand:Bangkok:Gateway
+United States:Atlanta, GA:Chattanooga, TN 1:Chattanooga, TN 2:Chattanooga, TN 3:El Paso, TX 1:El Paso, TX 2:Fremont, OH:Greensboro, NC:Kansas City, MO 1:Kansas City, MO 2:Lansing, MI:Romulus, MI:Springfield, KY:St. Peters, MO:Troy, MI

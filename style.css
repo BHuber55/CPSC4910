@@ -1,0 +1,128 @@
+.CountryButton {
+background-color: none;
+font-size: 24px;
+font-family: Serif;
+color: mediumblue;
+text-align: center;
+cursor: pointer;
+background-size: cover;
+height: 120px;
+width: 204px;
+}
+
+.dropbtn {
+    background-color: #FFFFFF;
+    color: blue;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {background-color: #c60000}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropdown:hover .dropbtn {
+background-color: #FFFFFF;
+}
+
+.third-level-menu
+{
+	position: absolute;
+	top: 0;
+	right: -150px;
+	width: 150px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: none;
+}
+
+.third-level-menu > li
+{
+	height: 30px;
+	background: #999999;
+}
+.third-level-menu > li:hover { background: #0000FF; }
+
+.second-level-menu
+{
+	position: absolute;
+	top: 30px;
+	left: 0;
+	width: 150px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: none;
+}
+
+.second-level-menu > li
+{
+	position: relative;
+	height: 30px;
+	background: #999999;
+}
+.second-level-menu > li:hover { background: #CCCCCC; }
+
+.top-level-menu
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.top-level-menu > li
+{
+	position: relative;
+	float: left;
+	height: 30px;
+	width: 150px;
+	background: #0000ff;
+}
+.top-level-menu > li:hover { background: #CCCCCC; }
+
+.top-level-menu li:hover > ul
+{
+	/* On hover, display the next level's menu */
+	display: inline;
+}
+
+
+/* Menu Link Styles */
+
+.top-level-menu a /* Apply to all links inside the multi-level menu */
+{
+	font: bold 14px Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 0 0 0 10px;
+
+	/* Make the link cover the entire list item-container */
+	display: block;
+	line-height: 30px;
+}
+.top-level-menu a:hover { color: #000000; }
